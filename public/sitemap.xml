@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main Pages -->
+  <url>
+    <loc>https://geektheory.in/</loc>
+    <lastmod>2026-01-30</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://geektheory.in/about</loc>
+    <lastmod>2026-01-30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://geektheory.in/services</loc>
+    <lastmod>2026-01-30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://geektheory.in/contact</loc>
+    <lastmod>2026-01-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Service Sub-pages -->
+  <url><loc>https://geektheory.in/services/waply</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/ecommerce</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/rental-pos</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/web-designing</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/mobile-app</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/lms</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/lead-generation</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/hosting</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/api-services</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/website-development</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/web-application</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/web-portals</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/vps-servers</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/ssl-certificates</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/services/domain-registration</loc><priority>0.6</priority></url>
+
+  <!-- Product Sub-pages -->
+  <url><loc>https://geektheory.in/products/simply-rent</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/products/waply</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/products/simple-leads</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/products/simply-learn</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/products/digital-vcard</loc><priority>0.6</priority></url>
+  <url><loc>https://geektheory.in/products/smm-tool</loc><priority>0.6</priority></url>
+</urlset>
