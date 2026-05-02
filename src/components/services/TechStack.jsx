@@ -45,9 +45,23 @@ const technologies = [
     { name: 'OpenAI API', icon: 'bx-bot', category: 'Smart Features' },
     { name: 'GraphQL', icon: 'bxl-graphql', category: 'Smart Features' },
 
+    // CMS & E-commerce
+    { name: 'WordPress', icon: 'bxl-wordpress', category: 'CMS & Growth' },
+    { name: 'Shopify', icon: 'bxl-shopify', category: 'CMS & Growth' },
+    { name: 'Elementor', icon: 'bx-layout', category: 'CMS & Growth' },
+    { name: 'WooCommerce', icon: 'bx-cart-alt', category: 'CMS & Growth' },
+
     // Design & UI
     { name: 'Figma', icon: 'bxl-figma', category: 'Visual Design' },
-    { name: 'Adobe XD', icon: 'bx-palette', category: 'Visual Design' }
+    { name: 'Adobe XD', icon: 'bx-palette', category: 'Visual Design' },
+    { name: 'Canva', icon: 'bx-paint-roll', category: 'Visual Design' },
+
+    // Marketing & SEO Tools
+    { name: 'SEMrush', icon: 'bx-search-alt', category: 'Growth Tools' },
+    { name: 'Ahrefs', icon: 'bx-line-chart', category: 'Growth Tools' },
+    { name: 'Yoast SEO', icon: 'bx-check-double', category: 'Growth Tools' },
+    { name: 'Cloudflare', icon: 'bxl-cloudflare', category: 'Security' },
+    { name: 'Google Search Console', icon: 'bx-stats', category: 'Growth Tools' }
 ];
 
 

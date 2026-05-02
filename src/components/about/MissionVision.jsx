@@ -22,7 +22,7 @@ const MissionVision = () => {
                             </div>
                             <h3 className="text-3xl font-bold text-white mb-4">Our Mission</h3>
                             <p className="text-gray-400 leading-relaxed text-lg">
-                                To empower businesses and individuals through high-performance digital marketing and practical education. 
+                                To empower businesses and individuals through high-performance digital marketing and practical education.
                                 We are dedicated to delivering measurable growth for our clients and life-changing skills for our students.
                             </p>
                         </div>
@@ -45,7 +45,7 @@ const MissionVision = () => {
                             </div>
                             <h3 className="text-3xl font-bold text-white mb-4">Our Vision</h3>
                             <p className="text-gray-400 leading-relaxed text-lg">
-                                To become India's most trusted dual-path digital growth partner, setting the benchmark 
+                                To become India's most trusted dual-path digital growth partner, setting the benchmark
                                 for how agencies can drive business results and how academies can prepare students for the real world.
                             </p>
                         </div>

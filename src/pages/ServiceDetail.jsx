@@ -63,7 +63,7 @@ const ServiceDetail = () => {
                                 <Link to="/contact" className="px-8 py-4 bg-[#00C2E8] text-white font-bold rounded-xl shadow-[0_0_20px_rgba(0,194,232,0.3)] hover:scale-105 transition-all">
                                     Request Quote
                                 </Link>
-                                <a href="https://wa.me/918305924454" className="px-8 py-4 border border-white/10 text-white font-bold rounded-xl hover:bg-white/5 transition-all flex items-center gap-2">
+                                <a href="https://wa.me/919669023005" className="px-8 py-4 border border-white/10 text-white font-bold rounded-xl hover:bg-white/5 transition-all flex items-center gap-2">
                                     <i className='bx bxl-whatsapp text-xl'></i> Talk to Expert
                                 </a>
                             </div>

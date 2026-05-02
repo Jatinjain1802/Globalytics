@@ -37,7 +37,7 @@ const Footer = () => {
                             />
                         </Link>
                         <p className="text-gray-500 text-sm leading-relaxed">
-                            We Grow Brands & Build Careers. India's trusted digital marketing agency and academy.
+                            Empowering Brands & Building Future-Ready Careers. India's trusted digital marketing agency and academy.
                         </p>
                         <div className="flex gap-4">
                             <a href="https://www.facebook.com/globalyticsdigital/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all">

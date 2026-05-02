@@ -8,7 +8,7 @@ const SEO = ({ title, description, keywords, image, url, type = 'website', schem
     const defaultDescription = 'Globalytics Digital - India\'s premier digital marketing agency and academy. We provide expert SEO, Google Ads, Meta Ads, and professional training courses.';
     const defaultKeywords = 'digital marketing agency, digital marketing course, seo services, google ads agency, social media marketing, Globalytics Digital, Globalytics Academy';
     const defaultImage = '/brand.webp';
-    const siteUrl = 'https://geektheory.in'; // Replace with actual URL
+    const siteUrl = 'https://globalyticsdigital.in'; 
 
     return (
         <Helmet>

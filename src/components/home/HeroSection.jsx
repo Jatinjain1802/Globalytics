@@ -66,7 +66,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <div className="absolute top-[-10%] right-[-10%] w-[600px] h-[600px] bg-[#00C2E8]/10 rounded-full blur-[120px] animate-pulse"></div>
                 <div className="absolute bottom-[-10%] left-[-10%] w-[500px] h-[500px] bg-[#4F46E5]/10 rounded-full blur-[120px]"></div>
-                
+
                 {/* Grid Overlay */}
                 <div className="absolute inset-0 opacity-[0.05]"
                     style={{
@@ -78,9 +78,9 @@ const HeroSection = () => {
 
             <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-16 w-full pt-32 pb-20">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                    
+
                     {/* Left Column: Content */}
-                    <motion.div 
+                    <motion.div
                         initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
@@ -88,12 +88,12 @@ const HeroSection = () => {
                     >
                         <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-md border border-white/10 rounded-full mb-6">
                             <span className="w-2 h-2 bg-[#00C2E8] rounded-full animate-ping"></span>
-                            <span className="text-sm font-medium text-gray-300">India's Leading Agency & Academy</span>
+                            <span className="text-sm font-medium text-gray-300">India's #1 Agency & Academy</span>
                         </div>
 
                         <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-                            <span className="block text-white">We Grow Brands &</span>
-                            <span className="gradient-text">Build Careers</span>
+                            <span className="block text-white">Empowering Brands &</span>
+                            <span className="gradient-text">Building Future-Ready Careers</span>
                         </h1>
 
                         <div className="text-lg sm:text-xl md:text-2xl text-gray-400 mb-8 h-[40px]">
@@ -116,9 +116,9 @@ const HeroSection = () => {
                         {/* Stats Grid */}
                         <div className="grid grid-cols-2 sm:grid-cols-4 gap-6">
                             {[
-                                { val: 200, suffix: '+', label: 'Clients' },
+                                { val: 1000, suffix: '+', label: 'Clients' },
                                 { val: 5, suffix: 'k+', label: 'Students' },
-                                { val: 8, suffix: '+', label: 'Years' },
+                                { val: 15, suffix: '+', label: 'Years' },
                                 { val: 95, suffix: '%', label: 'Placement' }
                             ].map((stat, i) => (
                                 <div key={i} className="text-center lg:text-left">
@@ -132,7 +132,7 @@ const HeroSection = () => {
                     </motion.div>
 
                     {/* Right Column: Visual Core */}
-                    <motion.div 
+                    <motion.div
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1 }}
@@ -146,15 +146,15 @@ const HeroSection = () => {
                         <div className="relative z-10 w-72 h-72 md:w-[450px] md:h-[450px] flex items-center justify-center">
                             <div className="absolute inset-0 bg-[#00C2E8]/10 backdrop-blur-3xl rounded-[60px] border border-white/10 rotate-6 shadow-2xl animate-pulse"></div>
                             <div className="absolute inset-0 bg-white/5 backdrop-blur-xl rounded-[60px] border border-white/10 -rotate-3"></div>
-                            
-                            <motion.div 
+
+                            <motion.div
                                 animate={{ y: [0, -15, 0] }}
                                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                                 className="relative w-64 h-64 md:w-[400px] md:h-[400px] rounded-[50px] overflow-hidden border border-white/20 shadow-2xl"
                             >
-                                <img 
-                                    src="/Images/brand/hero-main.png" 
-                                    alt="Globalytics Master Illustration" 
+                                <img
+                                    src="/Images/brand/hero-main.png"
+                                    alt="Globalytics Master Illustration"
                                     className="w-full h-full object-cover"
                                 />
                                 <div className="absolute inset-0 bg-linear-to-t from-[#0A0F1C]/60 to-transparent"></div>
@@ -162,15 +162,15 @@ const HeroSection = () => {
                         </div>
 
                         {/* Floating Labels */}
-                        <motion.div 
-                            animate={{ y: [0, -10, 0] }} 
+                        <motion.div
+                            animate={{ y: [0, -10, 0] }}
                             transition={{ duration: 4, repeat: Infinity }}
                             className="absolute top-0 right-0 glass-card px-4 py-2 rounded-xl text-xs font-bold border border-[#00C2E8]/30"
                         >
                             #1 SEO Agency
                         </motion.div>
-                        <motion.div 
-                            animate={{ y: [0, 10, 0] }} 
+                        <motion.div
+                            animate={{ y: [0, 10, 0] }}
                             transition={{ duration: 5, repeat: Infinity }}
                             className="absolute bottom-10 left-0 glass-card px-4 py-2 rounded-xl text-xs font-bold border border-[#4F46E5]/30"
                         >
@@ -184,7 +184,7 @@ const HeroSection = () => {
             {/* Scroll Indicator */}
             <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
                 <div className="w-6 h-10 border-2 border-white/20 rounded-full flex justify-center p-1">
-                    <motion.div 
+                    <motion.div
                         animate={{ y: [0, 12, 0] }}
                         transition={{ duration: 1.5, repeat: Infinity }}
                         className="w-1.5 h-1.5 bg-[#00C2E8] rounded-full"

@@ -39,12 +39,11 @@ const CTASection = () => {
                     {/* Action Buttons Grid */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
                         
-                        <a href="tel:+918305924454" className="glass-card p-5 rounded-2xl flex flex-col items-center gap-3 hover:bg-primary/10 transition-all border-white/5">
-                            <i className='bx bxs-phone-call text-3xl text-primary'></i>
-                            <span className="font-bold text-sm">Call Us Now</span>
+                        <a href="tel:+919669023005" className="glass-card p-5 rounded-2xl flex flex-col items-center gap-3 hover:bg-primary/10 transition-all border-white/5">
+                            <i className='bx bx-phone text-2xl text-primary'></i>
+                            <span className="text-sm font-bold">Call Now</span>
                         </a>
-
-                        <a href="https://wa.me/918305924454" target="_blank" rel="noopener noreferrer" className="glass-card p-5 rounded-2xl flex flex-col items-center gap-3 hover:bg-[#25D366]/10 transition-all border-white/5">
+                        <a href="https://wa.me/919669023005" target="_blank" rel="noopener noreferrer" className="glass-card p-5 rounded-2xl flex flex-col items-center gap-3 hover:bg-[#25D366]/10 transition-all border-white/5">
                             <i className='bx bxl-whatsapp text-3xl text-[#25D366]'></i>
                             <span className="font-bold text-sm">WhatsApp Us</span>
                         </a>

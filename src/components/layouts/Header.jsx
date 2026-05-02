@@ -27,10 +27,10 @@ const Header = () => {
 
     // Academy Courses
     const courses = [
-        { slug: 'complete-digital-marketing', name: 'Digital Marketing', desc: '4 Months Flagship', icon: 'bx-book-open' },
-        { slug: 'google-ads-mastery', name: 'Google Ads', desc: '6 Weeks Mastery', icon: 'bx-target-lock' },
-        { slug: 'meta-ads-mastery', name: 'Meta Ads', desc: '6 Weeks Mastery', icon: 'bxl-instagram' },
-        { slug: 'seo-mastery', name: 'SEO Mastery', desc: '8 Weeks Course', icon: 'bx-line-chart' },
+        { slug: 'complete-digital-marketing', name: 'Digital Marketing', desc: '3 Months Mastery', icon: 'bx-book-open' },
+        { slug: 'google-ads-mastery', name: 'Google Ads', desc: '3 Months Mastery', icon: 'bx-target-lock' },
+        { slug: 'meta-ads-mastery', name: 'Meta Ads', desc: '3 Months Mastery', icon: 'bxl-instagram' },
+        { slug: 'seo-mastery', name: 'SEO Mastery', desc: '3 Months Mastery', icon: 'bx-line-chart' },
     ]
 
     useEffect(() => {

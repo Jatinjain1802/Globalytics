@@ -23,7 +23,7 @@ const AboutSection = () => {
                             className="relative z-10 rounded-4xl overflow-hidden glass-card w-full h-[500px] md:h-[600px]"
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
+                                src="/Images/about/about.webp"
                                 alt="Globalytics Team"
                                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                                 loading="lazy"
@@ -41,7 +41,7 @@ const AboutSection = () => {
                         >
                             <div className="glass-card p-6 rounded-2xl shadow-2xl flex items-center gap-4 animate-float border-primary/30">
                                 <div className="w-14 h-14 bg-linear-to-br from-primary to-secondary rounded-full flex items-center justify-center text-white shadow-lg">
-                                    <span className="text-xl font-bold">8+</span>
+                                    <span className="text-xl font-bold">15+</span>
                                 </div>
                                 <div>
                                     <div className="text-white font-bold text-lg leading-none mb-1">Years Agency Exp.</div>
@@ -61,8 +61,8 @@ const AboutSection = () => {
                         >
                             <span className="text-primary font-bold tracking-widest uppercase mb-4 text-sm block"># WHO WE ARE</span>
                             <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
-                                We Grow Brands &<br />
-                                <span className="gradient-text"> Build Digital Careers.</span>
+                                Empowering Brands &<br />
+                                <span className="gradient-text"> Building Future-Ready Careers.</span>
                             </h2>
 
                             <div className="border-l-4 border-primary pl-6 mb-8">

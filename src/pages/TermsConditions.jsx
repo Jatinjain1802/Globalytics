@@ -80,7 +80,7 @@ const TermsConditions = () => {
                             </li>
                             <li className="flex items-center gap-3">
                                 <i className='bx bx-phone text-primary'></i>
-                                <a href="tel:+918305924454" className="hover:text-primary transition-colors">+91 83059 24454</a>
+                                <a href="tel:+919669023005" className="hover:text-primary transition-colors">+91 96690 23005</a>
                             </li>
                         </ul>
                     </div>

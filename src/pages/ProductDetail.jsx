@@ -168,7 +168,7 @@ const ProductDetail = () => {
                             {/* Floating Badge */}
                             <div className="absolute -bottom-6 -right-6 bg-linear-to-r from-red-600 to-red-700 text-white px-6 py-4 rounded-2xl shadow-2xl z-20">
                                 <div className="text-xs font-bold uppercase tracking-wider opacity-90">Trusted By</div>
-                                <div className="text-2xl font-bold">500+ Clients</div>
+                                <div className="text-2xl font-bold">1000+ Clients</div>
                             </div>
                         </motion.div>
                     </div>

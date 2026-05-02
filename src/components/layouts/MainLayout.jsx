@@ -75,7 +75,7 @@ const MainLayout = () => {
                                 >
                                     {/* WhatsApp Button */}
                                     <motion.a
-                                        href="https://wa.me/918305924454?text=Hi%20Globalytics%20Digital"
+                                        href="https://wa.me/919669023005?text=Hi%20Globalytics%20Digital"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         whileHover={{ scale: 1.1 }}
@@ -91,7 +91,7 @@ const MainLayout = () => {
 
                                     {/* Call Button */}
                                     <motion.a
-                                        href="tel:+918305924454"
+                                        href="tel:+919669023005"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         whileHover={{ scale: 1.1 }}
