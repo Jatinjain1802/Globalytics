@@ -1,11 +1,13 @@
 import HeroSection from '../components/home/HeroSection'
 import AboutSection from '../components/home/AboutSection'
-import ServicesSection from '../components/home/ServicesSection'
-import CoursesSection from '../components/home/CoursesSection'
-import TestimonialsSection from '../components/home/TestimonialsSection'
-import CTASection from '../components/home/CTASection'
-import ClientLogoSection from '../components/home/ClientLogoSection'
-import KeyBenefits from '../components/home/KeyBenefits'
+import { lazy, Suspense } from 'react'
+
+const ServicesSection = lazy(() => import('../components/home/ServicesSection'))
+const CoursesSection = lazy(() => import('../components/home/CoursesSection'))
+const TestimonialsSection = lazy(() => import('../components/home/TestimonialsSection'))
+const CTASection = lazy(() => import('../components/home/CTASection'))
+const ClientLogoSection = lazy(() => import('../components/home/ClientLogoSection'))
+const KeyBenefits = lazy(() => import('../components/home/KeyBenefits'))
 import SEO from '../components/common/SEO'
 
 const Home = () => {
@@ -14,7 +16,7 @@ const Home = () => {
         "@type": "Organization",
         "name": "Globalytics Digital",
         "url": "https://globalyticsdigital.in",
-        "logo": "https://globalyticsdigital.in/logo.png",
+        "logo": "https://globalyticsdigital.in/logo.webp",
         "description": "Digital marketing agency and academy offering SEO, Google Ads, Meta Ads, website development, video production, and digital marketing courses in India.",
         "address": {
           "@type": "PostalAddress",
@@ -41,12 +43,14 @@ const Home = () => {
             />
             <HeroSection />
             <AboutSection />
-            <ServicesSection />
-            <KeyBenefits />
-            <CoursesSection />
-            <TestimonialsSection />
-            <ClientLogoSection />
-            <CTASection />
+            <Suspense fallback={<div className="h-20" />}>
+                <ServicesSection />
+                <KeyBenefits />
+                <CoursesSection />
+                <TestimonialsSection />
+                <ClientLogoSection />
+                <CTASection />
+            </Suspense>
         </div>
     )
 }

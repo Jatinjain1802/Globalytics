@@ -153,9 +153,13 @@ const HeroSection = () => {
                                 className="relative w-64 h-64 md:w-[400px] md:h-[400px] rounded-[50px] overflow-hidden border border-white/20 shadow-2xl"
                             >
                                 <img
-                                    src="/Images/brand/hero-main.png"
-                                    alt="Globalytics Master Illustration"
+                                    src="/Images/brand/hero-main.webp"
+                                    alt="Globalytics Master Illustration - Leading Digital Marketing Agency"
                                     className="w-full h-full object-cover"
+                                    width="400"
+                                    height="400"
+                                    fetchpriority="high"
+                                    decoding="async"
                                 />
                                 <div className="absolute inset-0 bg-linear-to-t from-[#0A0F1C]/60 to-transparent"></div>
                             </motion.div>

@@ -3,7 +3,7 @@ export const productsData = {
     'simply-rent': {
         title: "Asset Rent Cycle",
         tagline: "Automate Your Rental Inventory",
-        heroImage: "/Images/products/simply-rent.png",
+        heroImage: "/Images/products/simply-rent.webp",
         description: " Simply Rent is an easy rental software designed to grow your profits. Stop losing gear with real-time tracking and save hours using automated billing. Whether you need a simple tool or a custom enterprise platform, our all-in-one solution makes managing your assets effortless.",
         pricingModels: [
             {
@@ -56,7 +56,7 @@ export const productsData = {
     'waply': {
         title: "Waply - WhatsApp Marketing Tool",
         tagline: "All-In-One WhatsApp Marketing Tool",
-        heroImage: "/Images/products/wapply.png",
+        heroImage: "/Images/products/wapply.webp",
         description: "Waply is the easiest bulk WhatsApp sender to grow your sales and support. Connect with customers using the Official API for reliability or our fast unofficial tools for instant reach. Perfect for any business wanting to automate chat marketing and send mass messages today.",
         simpleFeatures: [
             { icon: 'bx-check-shield', title: 'Verified Sender', desc: 'Get a green tick and build trust with clients.' },
@@ -102,7 +102,7 @@ export const productsData = {
     'simple-leads': {
         title: "Simple Leads - Lead Generation Tool",
         tagline: "Find B2B Customers & Sales Leads",
-        heroImage: "/Images/products/simple-leads.png",
+        heroImage: "/Images/products/simple-leads.webp",
         description: "Simple Leads is a fast sales prospecting tool to help you find and close customers. Automatically pull fresh data from Google Maps and LinkedIn without manual typing. Build a verified lead list and grow your revenue today.",
         simpleFeatures: [
             { icon: 'bx-search', title: 'Google Maps Scraper', desc: 'Get phone numbers and emails from Maps.' },
@@ -148,7 +148,7 @@ export const productsData = {
     'simply-learn': {
         title: "Simply Learn - Learning Management System",
         tagline: "Empower Education Digitally",
-        heroImage: "/Images/products/simply-learn.png",
+        heroImage: "/Images/products/simply-learn.webp",
         description: "Simply Learn is our comprehensive LMS platform for schools, universities, and corporate training programs. Create courses, conduct live classes, manage assessments, and track student progress all in one place.",
         simpleFeatures: [
             { icon: 'bx-video', title: 'Live Classes', desc: 'Integrated video conferencing for virtual classrooms.' },

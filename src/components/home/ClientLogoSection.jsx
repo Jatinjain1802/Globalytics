@@ -1,29 +1,29 @@
 
 const row1Clients = [
-    { name: 'Partner 1', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.42.29_PM-removebg-preview.png' },
-    { name: 'Partner 2', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.44.13_PM-removebg-preview.png' },
-    { name: 'Partner 3', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.04_PM-removebg-preview.png' },
-    { name: 'Partner 4', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.05_PM-removebg-preview.png' },
-    { name: 'Partner 5', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.05_PM__1_-removebg-preview.png' },
-    { name: 'Partner 6', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.05_PM__2_-removebg-preview.png' },
+    { name: 'Partner 1', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.42.29_PM-removebg-preview.webp' },
+    { name: 'Partner 2', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.44.13_PM-removebg-preview.webp' },
+    { name: 'Partner 3', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.04_PM-removebg-preview.webp' },
+    { name: 'Partner 4', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.05_PM-removebg-preview.webp' },
+    { name: 'Partner 5', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.05_PM__1_-removebg-preview.webp' },
+    { name: 'Partner 6', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.05_PM__2_-removebg-preview.webp' },
 ];
 
 const row2Clients = [
-    { name: 'Divya Tour', logo: '/Images/Home%20ScrollAnimation/1/divya_tour_____3_-removebg-preview.png' },
-    { name: 'Nature Trip', logo: '/Images/Home%20ScrollAnimation/1/nature_trip_31012026__Instagram_Post__45__-removebg-preview.png' },
-    { name: 'Shanti Lala', logo: '/Images/Home%20ScrollAnimation/1/shnati_lala_munnalal_reel_last_page__3_-removebg-preview.png' },
-    { name: 'Partner 7', logo: '/Images/Home%20ScrollAnimation/2/WhatsApp_Image_2026-05-02_at_1.42.29_PM-removebg-preview.png' },
-    { name: 'Partner 8', logo: '/Images/Home%20ScrollAnimation/2/WhatsApp_Image_2026-05-02_at_1.44.13_PM-removebg-preview.png' },
-    { name: 'Partner 9', logo: '/Images/Home%20ScrollAnimation/2/WhatsApp_Image_2026-05-02_at_1.50.04_PM-removebg-preview.png' },
+    { name: 'Divya Tour', logo: '/Images/Home%20ScrollAnimation/1/divya_tour_____3_-removebg-preview.webp' },
+    { name: 'Nature Trip', logo: '/Images/Home%20ScrollAnimation/1/nature_trip_31012026__Instagram_Post__45__-removebg-preview.webp' },
+    { name: 'Shanti Lala', logo: '/Images/Home%20ScrollAnimation/1/shnati_lala_munnalal_reel_last_page__3_-removebg-preview.webp' },
+    { name: 'Partner 7', logo: '/Images/Home%20ScrollAnimation/2/WhatsApp_Image_2026-05-02_at_1.42.29_PM-removebg-preview.webp' },
+    { name: 'Partner 8', logo: '/Images/Home%20ScrollAnimation/2/WhatsApp_Image_2026-05-02_at_1.44.13_PM-removebg-preview.webp' },
+    { name: 'Partner 9', logo: '/Images/Home%20ScrollAnimation/2/WhatsApp_Image_2026-05-02_at_1.50.04_PM-removebg-preview.webp' },
 ];
 
 const row3Clients = [
-    { name: 'Partner 10', logo: '/Images/Home%20ScrollAnimation/3/WhatsApp_Image_2026-05-02_at_1.50.05_PM-removebg-preview.png' },
-    { name: 'Partner 11', logo: '/Images/Home%20ScrollAnimation/3/WhatsApp_Image_2026-05-02_at_1.50.05_PM__1_-removebg-preview.png' },
-    { name: 'Partner 12', logo: '/Images/Home%20ScrollAnimation/3/WhatsApp_Image_2026-05-02_at_1.50.05_PM__2_-removebg-preview.png' },
-    { name: 'Partner 13', logo: '/Images/Home%20ScrollAnimation/4/divya_tour_____3_-removebg-preview.png' },
-    { name: 'Partner 14', logo: '/Images/Home%20ScrollAnimation/4/nature_trip_31012026__Instagram_Post__45__-removebg-preview.png' },
-    { name: 'Partner 15', logo: '/Images/Home%20ScrollAnimation/4/shnati_lala_munnalal_reel_last_page__3_-removebg-preview.png' },
+    { name: 'Partner 10', logo: '/Images/Home%20ScrollAnimation/3/WhatsApp_Image_2026-05-02_at_1.50.05_PM-removebg-preview.webp' },
+    { name: 'Partner 11', logo: '/Images/Home%20ScrollAnimation/3/WhatsApp_Image_2026-05-02_at_1.50.05_PM__1_-removebg-preview.webp' },
+    { name: 'Partner 12', logo: '/Images/Home%20ScrollAnimation/3/WhatsApp_Image_2026-05-02_at_1.50.05_PM__2_-removebg-preview.webp' },
+    { name: 'Partner 13', logo: '/Images/Home%20ScrollAnimation/4/divya_tour_____3_-removebg-preview.webp' },
+    { name: 'Partner 14', logo: '/Images/Home%20ScrollAnimation/4/nature_trip_31012026__Instagram_Post__45__-removebg-preview.webp' },
+    { name: 'Partner 15', logo: '/Images/Home%20ScrollAnimation/4/shnati_lala_munnalal_reel_last_page__3_-removebg-preview.webp' },
 ];
 
 const ClientLogoSection = () => {
@@ -60,6 +60,8 @@ const ClientLogoSection = () => {
                                         src={client.logo}
                                         alt={client.name}
                                         loading="lazy"
+                                        width="150"
+                                        height="80"
                                         className="max-w-full max-h-full object-contain filter brightness-0 invert"
                                     />
                                 </div>
@@ -75,6 +77,9 @@ const ClientLogoSection = () => {
                                     <img
                                         src={client.logo}
                                         alt={client.name}
+                                        loading="lazy"
+                                        width="150"
+                                        height="80"
                                         className="max-w-full max-h-full object-contain filter brightness-0 invert"
                                     />
                                 </div>
@@ -90,6 +95,9 @@ const ClientLogoSection = () => {
                                     <img
                                         src={client.logo}
                                         alt={client.name}
+                                        loading="lazy"
+                                        width="150"
+                                        height="80"
                                         className="max-w-full max-h-full object-contain filter brightness-0 invert"
                                     />
                                 </div>

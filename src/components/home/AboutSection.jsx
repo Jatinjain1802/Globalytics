@@ -24,9 +24,11 @@ const AboutSection = () => {
                         >
                             <img
                                 src="/Images/about/about.webp"
-                                alt="Globalytics Team"
+                                alt="Globalytics Team - Digital Marketing Experts"
                                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                                 loading="lazy"
+                                width="600"
+                                height="600"
                             />
                             <div className="absolute inset-0 bg-linear-to-t from-dark via-transparent to-transparent"></div>
                         </motion.div>
@@ -95,7 +97,7 @@ const AboutSection = () => {
                                             <i className={`bx ${feature.icon} `}></i>
                                         </div>
                                         <div>
-                                            <h4 className="text-xl font-bold text-white mb-2">{feature.title}</h4>
+                                            <h3 className="text-xl font-bold text-white mb-2">{feature.title}</h3>
                                             <p className="text-gray-400 leading-relaxed text-sm">
                                                 {feature.desc}
                                             </p>

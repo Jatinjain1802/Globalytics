@@ -63,6 +63,9 @@ const CoursesSection = () => {
                                     src={course.heroImage} 
                                     alt={course.title} 
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    width="300"
+                                    height="200"
+                                    loading="lazy"
                                 />
                                 <div className="absolute inset-0 bg-linear-to-t from-[#0A0F1C] to-transparent opacity-60"></div>
                                 <div className="absolute top-4 left-4">

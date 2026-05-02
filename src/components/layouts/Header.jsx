@@ -87,9 +87,11 @@ const Header = () => {
                     {/* Logo */}
                     <Link to="/" className="flex items-center relative z-20 group">
                         <img
-                            src="/Images/brand/logo.png"
-                            alt="Globalytics Digital"
+                            src="/Images/brand/logo.webp"
+                            alt="Globalytics Digital Logo"
                             className="h-10 md:h-12 w-auto object-contain"
+                            width="180"
+                            height="48"
                         />
                     </Link>
 
@@ -105,7 +107,11 @@ const Header = () => {
                             onMouseEnter={() => setIsServicesOpen(true)}
                             onMouseLeave={() => setIsServicesOpen(false)}
                         >
-                            <button className={`${getLinkClasses('/services')} flex items-center gap-1`}>
+                            <button 
+                                className={`${getLinkClasses('/services')} flex items-center gap-1`}
+                                aria-expanded={isServicesOpen}
+                                aria-label="Toggle Services Menu"
+                            >
                                 Services
                                 <i className={`bx bx-chevron-down text-lg transition-transform ${isServicesOpen ? 'rotate-180' : ''}`}></i>
                             </button>
@@ -134,7 +140,11 @@ const Header = () => {
                             onMouseEnter={() => setIsAcademyOpen(true)}
                             onMouseLeave={() => setIsAcademyOpen(false)}
                         >
-                            <button className={`${getLinkClasses('/academy')} flex items-center gap-1`}>
+                            <button 
+                                className={`${getLinkClasses('/academy')} flex items-center gap-1`}
+                                aria-expanded={isAcademyOpen}
+                                aria-label="Toggle Academy Menu"
+                            >
                                 Academy
                                 <i className={`bx bx-chevron-down text-lg transition-transform ${isAcademyOpen ? 'rotate-180' : ''}`}></i>
                             </button>
@@ -167,7 +177,12 @@ const Header = () => {
                     </div>
 
                     {/* Mobile Toggle */}
-                    <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="lg:hidden text-white text-3xl z-20">
+                    <button 
+                        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} 
+                        className="lg:hidden text-white text-3xl z-20"
+                        aria-label={isMobileMenuOpen ? "Close Menu" : "Open Menu"}
+                        aria-expanded={isMobileMenuOpen}
+                    >
                         <i className={`bx ${isMobileMenuOpen ? 'bx-x' : 'bx-menu'}`}></i>
                     </button>
                 </div>

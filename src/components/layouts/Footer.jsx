@@ -31,25 +31,27 @@ const Footer = () => {
                     <div className="space-y-6">
                         <Link to="/">
                             <img
-                                src="/Images/brand/logo.png"
-                                alt="Globalytics Digital"
+                                src="/Images/brand/logo.webp"
+                                alt="Globalytics Digital Logo"
                                 className="h-12 w-auto"
+                                width="180"
+                                height="48"
                             />
                         </Link>
                         <p className="text-gray-500 text-sm leading-relaxed">
                             Empowering Brands & Building Future-Ready Careers. India's trusted digital marketing agency and academy.
                         </p>
                         <div className="flex gap-4">
-                            <a href="https://www.facebook.com/globalyticsdigital/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all">
+                            <a href="https://www.facebook.com/globalyticsdigital/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all" aria-label="Facebook">
                                 <i className="bx bxl-facebook text-xl"></i>
                             </a>
-                            <a href="https://www.instagram.com/globalyticsdigital?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExR0E3ZkVZTDRqd3dhZHVBd3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5o0aQJsdCTMhVhbM_vIpXgfwOjK_MOU_yyqLRMNc9LCh6aMrAAN9J0D8RZoA_aem_iIbiI2woFIIqVWs-Zh649A" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all">
+                            <a href="https://www.instagram.com/globalyticsdigital?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExR0E3ZkVZTDRqd3dhZHVBd3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5o0aQJsdCTMhVhbM_vIpXgfwOjK_MOU_yyqLRMNc9LCh6aMrAAN9J0D8RZoA_aem_iIbiI2woFIIqVWs-Zh649A" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all" aria-label="Instagram">
                                 <i className="bx bxl-instagram text-xl"></i>
                             </a>
-                            <a href="https://www.linkedin.com/company/globalytics-digital-pvt-ltd/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all">
+                            <a href="https://www.linkedin.com/company/globalytics-digital-pvt-ltd/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all" aria-label="LinkedIn">
                                 <i className="bx bxl-linkedin text-xl"></i>
                             </a>
-                            <a href="https://wa.me/919669023005" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all">
+                            <a href="https://wa.me/919669023005" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all" aria-label="WhatsApp">
                                 <i className="bx bxl-whatsapp text-xl"></i>
                             </a>
                         </div>

@@ -2,7 +2,7 @@ export const servicesData = {
     "seo": {
         title: "Search Engine Optimisation (SEO)",
         tagline: "Rank Higher. Get Found. Grow Organically.",
-        heroImage: "/Images/banners/seo-banner.png",
+        heroImage: "/Images/banners/seo-banner.webp",
         description: "We build a solid SEO foundation for your business—covering technical SEO audits, on-page optimisation, keyword research, content strategy, and high-quality link building. Whether you're a local business or a national brand, we ensure Google sends the right people to your website.",
         topBadge: {
             text: "Data-Driven SEO Strategy",
@@ -69,7 +69,7 @@ export const servicesData = {
     "web-development": {
         title: "Custom Website Development",
         tagline: "Fast, Beautiful Websites That Convert Visitors into Customers.",
-        heroImage: "/Images/banners/web-dev-banner.png",
+        heroImage: "/Images/banners/web-dev-banner.webp",
         description: "We design and develop custom websites tailored to your brand—from high-converting landing pages to complex corporate sites. Every site we build is mobile-first, speed-optimised, and engineered to drive results.",
         topBadge: {
             text: "High-Performance Dev",
@@ -121,7 +121,7 @@ export const servicesData = {
     "google-ads": {
         title: "Google Ads Management",
         tagline: "Be at the Top When Your Customers are Looking.",
-        heroImage: "/Images/banners/google-ads-banner.png",
+        heroImage: "/Images/banners/google-ads-banner.webp",
         description: "Our Google Ads team creates high-performing campaigns across Search, Display, Shopping, and YouTube. We handle everything from keyword strategy and ad copywriting to bid management and conversion tracking.",
         topBadge: {
             text: "Certified Partner",
@@ -162,7 +162,7 @@ export const servicesData = {
     "meta-ads": {
         title: "Meta Ads (Facebook & Instagram)",
         tagline: "Reach Your Ideal Customers Where They Spend Their Time.",
-        heroImage: "/Images/banners/meta-ads-banner.png",
+        heroImage: "/Images/banners/meta-ads-banner.webp",
         description: "We manage high-converting Meta Ad campaigns on Facebook and Instagram. From audience research and creative strategy to A/B testing and ROAS optimisation—our performance team drives real revenue.",
         topBadge: {
             text: "Performance Specialists",
@@ -203,7 +203,7 @@ export const servicesData = {
     "social-media": {
         title: "Social Media Marketing (SMM)",
         tagline: "Build a Loyal Audience That Buys From You.",
-        heroImage: "/Images/banners/smm-banner.png",
+        heroImage: "/Images/banners/smm-banner.webp",
         description: "We manage your brand's presence across Instagram, Facebook, LinkedIn, and YouTube. Our team handles content creation, scheduling, community management, and growth strategy.",
         topBadge: {
             text: "Brand Building",
@@ -244,7 +244,7 @@ export const servicesData = {
     "video-production": {
         title: "Video Production & Editing",
         tagline: "Professional Video Content That Makes Your Brand Stand Out.",
-        heroImage: "/Images/banners/video-prod-banner.png",
+        heroImage: "/Images/banners/video-prod-banner.webp",
         description: "From concept and scripting to on-location shooting and post-production—we create high-quality brand videos, product videos, reels, and ad creatives that build massive trust.",
         topBadge: {
             text: "Cinematic Quality",
@@ -296,7 +296,7 @@ export const servicesData = {
     "ecommerce": {
         title: "E-commerce Development",
         tagline: "Start Your Online Shop and Sell to the World.",
-        heroImage: "/Images/banners/ecommerce-banner.png",
+        heroImage: "/Images/banners/ecommerce-banner.webp",
         description: "We build fast online stores that turn visitors into real buyers. We ensure your shop works with all payment apps and manages your sales, stock, and orders automatically.",
         topBadge: {
             text: "Secure Payments",
@@ -337,7 +337,7 @@ export const servicesData = {
     "web-applications": {
         title: "Custom Web Applications (CRM/ERP)",
         tagline: "Enterprise-Grade Automation Engineered for Efficiency.",
-        heroImage: "/Images/banners/web-apps-banner.png",
+        heroImage: "/Images/banners/web-apps-banner.webp",
         description: "Stop struggling with messy spreadsheets. We build secure, cloud-native software to automate your unique workflows. From custom CRM to full-scale ERP solutions.",
         topBadge: {
             text: "Business Automation",
@@ -378,7 +378,7 @@ export const servicesData = {
     "mobile-apps": {
         title: "Mobile App Development",
         tagline: "Your Business in Their Pocket.",
-        heroImage: "/Images/banners/mobile-apps-banner.png",
+        heroImage: "/Images/banners/mobile-apps-banner.webp",
         description: "Connect with your customers directly on their phones. We build smooth, fast, and easy-to-use mobile apps for both iPhones and Android using the latest cross-platform technologies.",
         topBadge: {
             text: "iOS & Android",

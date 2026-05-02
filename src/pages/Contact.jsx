@@ -21,15 +21,23 @@ const Contact = () => {
         setFormData(prev => ({ ...prev, [name]: value }))
     }
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault()
         setIsSubmitting(true)
-        // Simulate API call
-        setTimeout(() => {
-            setSubmitStatus('success')
-            setIsSubmitting(false)
-            setFormData({ firstName: '', lastName: '', email: '', phone: '', subject: '', message: '' })
-        }, 1500)
+
+        // Construct the WhatsApp message
+        const phoneNumber = '919669023005'
+        const text = `*New Inquiry from Globalytics Digital Website*%0A%0A*Name:* ${formData.firstName} ${formData.lastName}%0A*Email:* ${formData.email}%0A*Message:* ${formData.message}`
+        
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${text}`
+
+        // Open WhatsApp in a new tab
+        window.open(whatsappUrl, '_blank')
+
+        // Update status and reset form
+        setSubmitStatus('success')
+        setIsSubmitting(false)
+        setFormData({ firstName: '', lastName: '', email: '', phone: '', subject: '', message: '' })
     }
 
     return (
