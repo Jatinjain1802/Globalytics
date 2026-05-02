@@ -67,7 +67,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <h4 className="font-bold text-lg">Call Us</h4>
-                                        <p className="text-gray-400">+91 83059 24454</p>
+                                        <p className="text-gray-400">+91 96690 23005</p>
                                     </div>
                                 </div>
                                 <div className="flex gap-6">
@@ -84,8 +84,8 @@ const Contact = () => {
                                         <i className='bx bx-map'></i>
                                     </div>
                                     <div>
-                                        <h4 className="font-bold text-lg">Our Offices</h4>
-                                        <p className="text-gray-400">Chennai | Indore | Ujjain</p>
+                                        <h4 className="font-bold text-lg">Our Office</h4>
+                                        <p className="text-gray-400">20, Narayan Pura Square, above Relaxo Footwear, near Teen Batti, Ujjain, MP 456010</p>
                                     </div>
                                 </div>
                             </div>

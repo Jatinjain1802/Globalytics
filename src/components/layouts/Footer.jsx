@@ -10,6 +10,9 @@ const Footer = () => {
         { name: 'Meta Ads', path: '/services/meta-ads' },
         { name: 'Social Media', path: '/services/social-media' },
         { name: 'Video Production', path: '/services/video-production' },
+        { name: 'E-commerce', path: '/services/ecommerce' },
+        { name: 'Web Applications', path: '/services/web-applications' },
+        { name: 'Mobile Apps', path: '/services/mobile-apps' },
     ]
 
     const academy = [
@@ -28,7 +31,7 @@ const Footer = () => {
                     <div className="space-y-6">
                         <Link to="/">
                             <img
-                                src="/logo.png"
+                                src="/Images/brand/logo.png"
                                 alt="Globalytics Digital"
                                 className="h-12 w-auto"
                             />
@@ -37,21 +40,28 @@ const Footer = () => {
                             We Grow Brands & Build Careers. India's trusted digital marketing agency and academy.
                         </p>
                         <div className="flex gap-4">
-                            {['facebook', 'instagram', 'linkedin', 'whatsapp'].map((s, i) => (
-                                <a key={i} href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all">
-                                    <i className={`bx bxl-${s} text-xl`}></i>
-                                </a>
-                            ))}
+                            <a href="https://www.facebook.com/globalyticsdigital/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all">
+                                <i className="bx bxl-facebook text-xl"></i>
+                            </a>
+                            <a href="https://www.instagram.com/globalyticsdigital?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExR0E3ZkVZTDRqd3dhZHVBd3NydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5o0aQJsdCTMhVhbM_vIpXgfwOjK_MOU_yyqLRMNc9LCh6aMrAAN9J0D8RZoA_aem_iIbiI2woFIIqVWs-Zh649A" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all">
+                                <i className="bx bxl-instagram text-xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/company/globalytics-digital-pvt-ltd/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all">
+                                <i className="bx bxl-linkedin text-xl"></i>
+                            </a>
+                            <a href="https://wa.me/919669023005" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#00C2E8] hover:text-white transition-all">
+                                <i className="bx bxl-whatsapp text-xl"></i>
+                            </a>
                         </div>
                     </div>
 
                     {/* Agency Services */}
-                    <div>
-                        <h4 className="text-lg font-bold mb-6 text-[#00C2E8]">Agency</h4>
-                        <ul className="space-y-4">
+                    <div className="lg:col-span-1">
+                        <h4 className="text-lg font-bold mb-6 text-[#00C2E8]">Services</h4>
+                        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
                             {services.map((s, i) => (
                                 <li key={i}>
-                                    <Link to={s.path} className="text-gray-500 hover:text-white text-sm transition-colors">{s.name}</Link>
+                                    <Link to={s.path} className="text-gray-500 hover:text-white text-sm transition-colors whitespace-nowrap">{s.name}</Link>
                                 </li>
                             ))}
                         </ul>
@@ -75,11 +85,11 @@ const Footer = () => {
                         <ul className="space-y-4 text-sm text-gray-500">
                             <li className="flex gap-3">
                                 <i className='bx bx-map text-[#00C2E8] text-xl'></i>
-                                <span>India Offices: Chennai | Indore | Ujjain</span>
+                                <span>20, Narayan Pura Square, above Relaxo Footwear, near Teen Batti, Ujjain, MP 456010</span>
                             </li>
                             <li className="flex gap-3">
                                 <i className='bx bx-phone text-[#00C2E8] text-xl'></i>
-                                <a href="tel:+918305924454" className="hover:text-white">+91 83059 24454</a>
+                                <a href="tel:+919669023005" className="hover:text-white">+91 96690 23005</a>
                             </li>
                             <li className="flex gap-3">
                                 <i className='bx bx-envelope text-[#00C2E8] text-xl'></i>

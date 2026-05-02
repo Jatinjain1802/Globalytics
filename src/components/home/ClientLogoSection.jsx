@@ -1,41 +1,29 @@
 
 const row1Clients = [
-    { name: 'Chandrasekars Solar', logo: '/Images/Home%20ScrollAnimation/1/Chandrasekars%20solar%20energy_Cropp.png' },
-    { name: 'Aramsei', logo: '/Images/Home%20ScrollAnimation/1/aramsei.png' },
-    { name: 'Asian Paint', logo: '/Images/Home%20ScrollAnimation/1/asianpaint.png' },
-    { name: 'Billing Wale', logo: '/Images/Home%20ScrollAnimation/1/billing%20wale.png' },
-    { name: 'Chaabi', logo: '/Images/Home%20ScrollAnimation/1/chaabi.png' },
-    { name: 'Ednue', logo: '/Images/Home%20ScrollAnimation/1/ednue-logo.png' },
-    { name: 'Edunnx', logo: '/Images/Home%20ScrollAnimation/1/edunnx.png' },
-    { name: 'Eesha', logo: '/Images/Home%20ScrollAnimation/1/eesha.png' },
-    { name: 'Fit For Tooth', logo: '/Images/Home%20ScrollAnimation/2/Fit_For_Tooth_Logo.png' },
-    { name: 'Health Decoded', logo: '/Images/Home%20ScrollAnimation/2/HealthDecodedLogo.png' },
+    { name: 'Partner 1', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.42.29_PM-removebg-preview.png' },
+    { name: 'Partner 2', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.44.13_PM-removebg-preview.png' },
+    { name: 'Partner 3', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.04_PM-removebg-preview.png' },
+    { name: 'Partner 4', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.05_PM-removebg-preview.png' },
+    { name: 'Partner 5', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.05_PM__1_-removebg-preview.png' },
+    { name: 'Partner 6', logo: '/Images/Home%20ScrollAnimation/1/WhatsApp_Image_2026-05-02_at_1.50.05_PM__2_-removebg-preview.png' },
 ];
 
 const row2Clients = [
-    { name: 'Meetcupid', logo: '/Images/Home%20ScrollAnimation/2/Meetcupid.png' },
-    { name: 'Meg Sun Organics', logo: '/Images/Home%20ScrollAnimation/2/Meg-_-Sun-Organics.png' },
-    { name: 'Joshi Masala', logo: '/Images/Home%20ScrollAnimation/2/joshimasala.png' },
-    { name: 'Make Your Toon', logo: '/Images/Home%20ScrollAnimation/2/make%20your%20toon.png' },
-    { name: 'MRF', logo: '/Images/Home%20ScrollAnimation/2/mrf.png' },
-    { name: 'NMC', logo: '/Images/Home%20ScrollAnimation/2/nmc_logo1.png' },
-    { name: 'Socratech', logo: '/Images/Home%20ScrollAnimation/3/Socratech%20logo.png' },
-    { name: 'Oilo', logo: '/Images/Home%20ScrollAnimation/3/oilo.png' },
-    { name: 'Padma', logo: '/Images/Home%20ScrollAnimation/3/padma.png' },
-    { name: 'Paradime', logo: '/Images/Home%20ScrollAnimation/3/paradime.png' },
+    { name: 'Divya Tour', logo: '/Images/Home%20ScrollAnimation/1/divya_tour_____3_-removebg-preview.png' },
+    { name: 'Nature Trip', logo: '/Images/Home%20ScrollAnimation/1/nature_trip_31012026__Instagram_Post__45__-removebg-preview.png' },
+    { name: 'Shanti Lala', logo: '/Images/Home%20ScrollAnimation/1/shnati_lala_munnalal_reel_last_page__3_-removebg-preview.png' },
+    { name: 'Partner 7', logo: '/Images/Home%20ScrollAnimation/2/WhatsApp_Image_2026-05-02_at_1.42.29_PM-removebg-preview.png' },
+    { name: 'Partner 8', logo: '/Images/Home%20ScrollAnimation/2/WhatsApp_Image_2026-05-02_at_1.44.13_PM-removebg-preview.png' },
+    { name: 'Partner 9', logo: '/Images/Home%20ScrollAnimation/2/WhatsApp_Image_2026-05-02_at_1.50.04_PM-removebg-preview.png' },
 ];
 
 const row3Clients = [
-    { name: 'Proodle', logo: '/Images/Home%20ScrollAnimation/3/proodle.png' },
-    { name: 'Sai Catering', logo: '/Images/Home%20ScrollAnimation/3/saicatering.png' },
-    { name: 'Skilledu', logo: '/Images/Home%20ScrollAnimation/3/skilledu.png' },
-    { name: 'TradeGig', logo: '/Images/Home%20ScrollAnimation/4/TradeGig.png' },
-    { name: 'Zollabo', logo: '/Images/Home%20ScrollAnimation/4/Zollabo-.png' },
-    { name: 'Authentic', logo: '/Images/Home%20ScrollAnimation/4/authentic.png' },
-    { name: 'Opulence Forever', logo: '/Images/Home%20ScrollAnimation/4/opulence_forever.png' },
-    { name: 'Tata Sky', logo: '/Images/Home%20ScrollAnimation/4/tatasky.png' },
-    { name: 'Tofu Trips', logo: '/Images/Home%20ScrollAnimation/4/tofutrips.png' },
-    { name: 'VSS', logo: '/Images/Home%20ScrollAnimation/4/vss.png' },
+    { name: 'Partner 10', logo: '/Images/Home%20ScrollAnimation/3/WhatsApp_Image_2026-05-02_at_1.50.05_PM-removebg-preview.png' },
+    { name: 'Partner 11', logo: '/Images/Home%20ScrollAnimation/3/WhatsApp_Image_2026-05-02_at_1.50.05_PM__1_-removebg-preview.png' },
+    { name: 'Partner 12', logo: '/Images/Home%20ScrollAnimation/3/WhatsApp_Image_2026-05-02_at_1.50.05_PM__2_-removebg-preview.png' },
+    { name: 'Partner 13', logo: '/Images/Home%20ScrollAnimation/4/divya_tour_____3_-removebg-preview.png' },
+    { name: 'Partner 14', logo: '/Images/Home%20ScrollAnimation/4/nature_trip_31012026__Instagram_Post__45__-removebg-preview.png' },
+    { name: 'Partner 15', logo: '/Images/Home%20ScrollAnimation/4/shnati_lala_munnalal_reel_last_page__3_-removebg-preview.png' },
 ];
 
 const ClientLogoSection = () => {
@@ -65,14 +53,14 @@ const ClientLogoSection = () => {
                 <div className="flex flex-col gap-12">
                     {/* First Row */}
                     <div className="flex overflow-hidden group">
-                        <div className="flex whitespace-nowrap animate-marquee-row hover:pause-marquee py-4">
+                        <div className="flex whitespace-nowrap animate-marquee-row hover:pause-marquee py-2">
                             {row1.map((client, index) => (
-                                <div key={index} className="inline-flex items-center justify-center mx-10 md:mx-16 w-32 md:w-48 h-16 md:h-24 transition-all duration-500 hover:scale-125 grayscale hover:grayscale-0 opacity-40 hover:opacity-100">
+                                <div key={index} className="inline-flex items-center justify-center mx-6 md:mx-10 w-24 md:w-36 h-12 md:h-20 transition-all duration-500 hover:scale-110 opacity-70 hover:opacity-100">
                                     <img
                                         src={client.logo}
                                         alt={client.name}
                                         loading="lazy"
-                                        className="max-w-full max-h-full object-contain"
+                                        className="max-w-full max-h-full object-contain filter brightness-0 invert"
                                     />
                                 </div>
                             ))}
@@ -81,13 +69,13 @@ const ClientLogoSection = () => {
 
                     {/* Second Row */}
                     <div className="flex overflow-hidden group">
-                        <div className="flex whitespace-nowrap animate-marquee-row-reverse hover:pause-marquee py-4">
+                        <div className="flex whitespace-nowrap animate-marquee-row-reverse hover:pause-marquee py-2">
                             {row2.map((client, index) => (
-                                <div key={index} className="inline-flex items-center justify-center mx-10 md:mx-16 w-32 md:w-48 h-16 md:h-24 transition-all duration-500 hover:scale-125 grayscale hover:grayscale-0 opacity-40 hover:opacity-100">
+                                <div key={index} className="inline-flex items-center justify-center mx-6 md:mx-10 w-24 md:w-36 h-12 md:h-20 transition-all duration-500 hover:scale-110 opacity-70 hover:opacity-100">
                                     <img
                                         src={client.logo}
                                         alt={client.name}
-                                        className="max-w-full max-h-full object-contain"
+                                        className="max-w-full max-h-full object-contain filter brightness-0 invert"
                                     />
                                 </div>
                             ))}
@@ -96,13 +84,13 @@ const ClientLogoSection = () => {
 
                     {/* Third Row */}
                     <div className="flex overflow-hidden group">
-                        <div className="flex whitespace-nowrap animate-marquee-row-slow hover:pause-marquee py-4">
+                        <div className="flex whitespace-nowrap animate-marquee-row-slow hover:pause-marquee py-2">
                             {row3.map((client, index) => (
-                                <div key={index} className="inline-flex items-center justify-center mx-10 md:mx-16 w-32 md:w-48 h-16 md:h-24 transition-all duration-500 hover:scale-125 grayscale hover:grayscale-0 opacity-40 hover:opacity-100">
+                                <div key={index} className="inline-flex items-center justify-center mx-6 md:mx-10 w-24 md:w-36 h-12 md:h-20 transition-all duration-500 hover:scale-110 opacity-70 hover:opacity-100">
                                     <img
                                         src={client.logo}
                                         alt={client.name}
-                                        className="max-w-full max-h-full object-contain"
+                                        className="max-w-full max-h-full object-contain filter brightness-0 invert"
                                     />
                                 </div>
                             ))}

@@ -49,6 +49,30 @@ const services = [
         description: 'Professional video content that makes your brand stand out. High-quality brand videos, product shoots, and ad creatives.',
         number: '06',
         features: ['Commercial Shoots', 'Product Videos', 'Brand Films']
+    },
+    {
+        id: 'ecommerce',
+        icon: 'bx-cart-alt',
+        title: 'E-commerce Development',
+        description: 'Start your online shop and sell to the world. We build fast online stores that turn visitors into real buyers.',
+        number: '07',
+        features: ['UPI Payments', 'Inventory Sync', 'Secure Checkout']
+    },
+    {
+        id: 'web-applications',
+        icon: 'bx-cog',
+        title: 'Custom Web Applications',
+        description: 'Enterprise-grade automation engineered for efficiency. From custom CRM to full-scale ERP solutions.',
+        number: '08',
+        features: ['CRM/ERP', 'Process Automation', 'Cloud Access']
+    },
+    {
+        id: 'mobile-apps',
+        icon: 'bx-mobile-alt',
+        title: 'Mobile App Development',
+        description: 'Connect with your customers directly on their phones. We build smooth, fast apps for both iPhones and Android.',
+        number: '09',
+        features: ['iOS & Android', 'Push Notifications', 'Native UX']
     }
 ]
 

@@ -15,11 +15,14 @@ const Header = () => {
     // Agency Services
     const services = [
         { slug: 'seo', name: 'SEO', desc: 'Search Engine Optimisation', icon: 'bx-search-alt' },
-        { slug: 'web-development', name: 'Web Dev', desc: 'Design & Development', icon: 'bx-code-alt' },
+        { slug: 'web-development', name: 'Web Dev', desc: 'Custom Design & Dev', icon: 'bx-code-alt' },
         { slug: 'google-ads', name: 'Google Ads', desc: 'PPC Management', icon: 'bx-bullseye' },
         { slug: 'meta-ads', name: 'Meta Ads', desc: 'Facebook & Instagram', icon: 'bxl-facebook-circle' },
         { slug: 'social-media', name: 'SMM', desc: 'Social Media Marketing', icon: 'bx-share-alt' },
         { slug: 'video-production', name: 'Video', desc: 'Production & Editing', icon: 'bx-video' },
+        { slug: 'ecommerce', name: 'E-commerce', desc: 'Online Store Solutions', icon: 'bx-cart-alt' },
+        { slug: 'web-applications', name: 'Web Apps', desc: 'Custom CRM & ERP', icon: 'bx-cog' },
+        { slug: 'mobile-apps', name: 'Mobile Apps', desc: 'iOS & Android Dev', icon: 'bx-mobile-alt' },
     ];
 
     // Academy Courses
@@ -84,7 +87,7 @@ const Header = () => {
                     {/* Logo */}
                     <Link to="/" className="flex items-center relative z-20 group">
                         <img
-                            src="/logo.png"
+                            src="/Images/brand/logo.png"
                             alt="Globalytics Digital"
                             className="h-10 md:h-12 w-auto object-contain"
                         />
@@ -103,12 +106,12 @@ const Header = () => {
                             onMouseLeave={() => setIsServicesOpen(false)}
                         >
                             <button className={`${getLinkClasses('/services')} flex items-center gap-1`}>
-                                Agency
+                                Services
                                 <i className={`bx bx-chevron-down text-lg transition-transform ${isServicesOpen ? 'rotate-180' : ''}`}></i>
                             </button>
 
                             <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-4 transition-all duration-300 ${isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
-                                <div className="bg-[#0A0F1C] border border-white/10 rounded-2xl p-4 w-[500px] grid grid-cols-2 gap-2 shadow-2xl">
+                                <div className="bg-[#0A0F1C] border border-white/10 rounded-2xl p-4 w-[750px] grid grid-cols-3 gap-2 shadow-2xl">
                                     {services.map((s) => (
                                         <Link key={s.slug} to={`/services/${s.slug}`} className="flex items-center gap-3 p-3 rounded-xl hover:bg-white/5 transition-all group">
                                             <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-[#00C2E8] group-hover:text-white transition-all">
@@ -177,7 +180,7 @@ const Header = () => {
                     <Link to="/about" className="text-2xl font-bold text-white">About</Link>
                     
                     <button onClick={() => setIsMobileServicesOpen(!isMobileServicesOpen)} className="text-2xl font-bold text-white flex justify-between items-center">
-                        Agency <i className={`bx bx-chevron-down ${isMobileServicesOpen ? 'rotate-180' : ''}`}></i>
+                        Services <i className={`bx bx-chevron-down ${isMobileServicesOpen ? 'rotate-180' : ''}`}></i>
                     </button>
                     {isMobileServicesOpen && (
                         <div className="flex flex-col gap-4 pl-4 border-l border-white/10">

@@ -3,7 +3,7 @@ export const coursesData = {
     'complete-digital-marketing': {
         title: "Complete Digital Marketing Course",
         tagline: "The most comprehensive digital marketing training in India",
-        heroImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+        heroImage: "/Images/banners/digital-marketing-course-banner.png",
         description: "This flagship course covers every major pillar of digital marketing — SEO, Google Ads, Meta Ads, Social Media Marketing, Content Strategy, Analytics, and more. You'll work on live projects, real campaign data, and graduate with a portfolio ready for employment or freelancing.",
         duration: "4 Months",
         mode: "Hybrid (Online + Offline)",
@@ -37,7 +37,7 @@ export const coursesData = {
     'google-ads-mastery': {
         title: "Google Ads Mastery Course",
         tagline: "Become a certified Google Ads specialist",
-        heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+        heroImage: "/Images/banners/google-ads-mastery-banner.png",
         description: "Learn to plan, launch, manage, and optimise Google Ads campaigns across Search, Display, Shopping, and YouTube. You'll master keyword research, Quality Score, bid strategies, conversion tracking, and performance reporting — all using real ad accounts and live budgets.",
         duration: "6 Weeks",
         mode: "Live Online",
@@ -67,7 +67,7 @@ export const coursesData = {
     'meta-ads-mastery': {
         title: "Meta Ads Mastery Course",
         tagline: "Run profitable Facebook and Instagram ad campaigns",
-        heroImage: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+        heroImage: "/Images/banners/meta-ads-mastery-banner.png",
         description: "This course takes you from zero to advanced on Meta's advertising platform. You'll learn audience research, creative strategy, campaign structure, A/B testing, pixel setup, retargeting, and ROAS optimisation — using real business ad accounts.",
         duration: "6 Weeks",
         mode: "Live Online",
@@ -97,7 +97,7 @@ export const coursesData = {
     'seo-mastery': {
         title: "SEO Mastery Course",
         tagline: "Rank on Google and generate organic traffic",
-        heroImage: "https://images.unsplash.com/photo-1571721795195-a2ca2d3370a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80",
+        heroImage: "/Images/banners/seo-mastery-banner.png",
         description: "Learn technical SEO, on-page optimisation, keyword research, content strategy, backlink building, and local SEO. This course is built for aspiring SEO professionals and business owners who want to reduce their dependence on paid ads and build long-term organic growth.",
         duration: "8 Weeks",
         mode: "Online",

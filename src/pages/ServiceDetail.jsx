@@ -195,14 +195,13 @@ const ServiceDetail = () => {
                         <div className="text-center mb-16">
                             <h2 className="text-4xl font-bold mb-4">Key <span className="gradient-text">Benefits</span></h2>
                         </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                             {service.benefits.map((benefit, i) => (
-                                <div key={i} className="p-6 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/10 transition-all text-center">
-                                    <div className="w-12 h-12 bg-[#00C2E8]/10 rounded-full flex items-center justify-center text-2xl text-[#00C2E8] mx-auto mb-4">
-                                        <i className={`bx ${benefit.icon}`}></i>
+                                <div key={i} className="flex gap-4 p-6 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/10 transition-all">
+                                    <div className="w-10 h-10 rounded-lg bg-[#00C2E8]/10 flex items-center justify-center text-xl text-[#00C2E8] shrink-0">
+                                        <i className='bx bx-check-shield'></i>
                                     </div>
-                                    <h4 className="font-bold mb-2">{benefit.title}</h4>
-                                    <p className="text-xs text-gray-500">{benefit.desc}</p>
+                                    <p className="text-gray-300 font-medium">{benefit}</p>
                                 </div>
                             ))}
                         </div>
